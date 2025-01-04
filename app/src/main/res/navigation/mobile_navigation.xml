@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.taskifytodoapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_todoMainFragment"
+            app:destination="@+id/nav_todo_main" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_todo_main"
+        android:name="com.example.taskifytodoapp.TodoMainFragment"
+        android:label="Todo List"
+        tools:layout="@layout/fragment_todo_main" />
+
+    <fragment
+        android:id="@+id/completedTasksFragment"
+        android:name="com.example.taskifytodoapp.CompletedTasksFragment"
+        android:label="Completed Tasks"
+        tools:layout="@layout/fragment_completed_tasks" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.example.taskifytodoapp.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_help"
+        android:name="com.example.taskifytodoapp.HelpFragment"
+        android:label="@string/menu_help"
+        tools:layout="@layout/fragment_help" />
+
+    <fragment
+        android:id="@+id/nav_faqs"
+        android:name="com.example.taskifytodoapp.FaqsFragment"
+        android:label="@string/menu_faqs"
+        tools:layout="@layout/fragment_faqs" />
+</navigation>

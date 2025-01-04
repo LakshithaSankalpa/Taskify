@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Frequently Asked Questions"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginBottom="16dp" />
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:layout_gravity="center"
+            android:layout_marginBottom="16dp"
+            app:srcCompat="@drawable/taskify_logo_bg" />
+
+
+        <!-- Question 1 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: How do I add a task?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A: Open the app, tap on the 'Add Task' button, enter the task details, set a due date, and tap 'Save'."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Question 2 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Can I mark a task as complete?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A: Yes! Tap the 'Complete' button to mark the task as complete. Completed tasks are moved to a separate 'Completed Tasks' list."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Question 3 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Can I delete a task?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A: Yes, tap on a task and select 'Delete' to remove it permanently."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Question 4 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Can I track tasks?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A: Absolutely. Taskify tracks tasks with due dates and notifies you with reminders if enabled."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Question 5 -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Q: Is there a way to sync my tasks?"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="A: Yes, Taskify supports cloud sync. Ensure sync is enabled in the app settings to access tasks across devices."
+            android:textSize="16sp"
+            android:textColor="#444444"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Footer -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Need more help? \n Contact us at info@lakshithasankalpa.com"
+            android:textSize="16sp"
+            android:textColor="#2196F3"
+            android:gravity="center"
+            android:autoLink="email"
+            android:layout_marginTop="16dp" />
+
+    </LinearLayout>
+</ScrollView>
